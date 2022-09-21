@@ -1,0 +1,45 @@
+:root {
+  --primary-background-color: #FFFFFF;
+  --secondary-background-color: #2F303A;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196F3;
+  --footer-comments-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: var(--primary-background-color);
+  font-family: Roboto;
+}
+
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  color: var(--accent-color);
+}
+
+/* 
+Raleway weight    700
+Roboto weight 400 500  700 900
+
+color
+
+main     color: #FFFFFF;
+
+logo & hover, buttons       color: #2196F3; 
+
+nav (original) &heading titles      color: #212121;
+
+header contacts & parag & description   color: #757575;
+
+footer contacts    color: rgba(255, 255, 255, 0.6);
+
+*/

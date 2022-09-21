@@ -5,21 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <a href="/">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+      <nav class="nav-bar">
+        <a href="/" class="logo link">WebStudio</a>
+        <ul class="nav-pages list">
+          <li><a href="" class="link">Studio</a></li>
+          <li><a href="./portfolio.html" class="link">Portfolio</a></li>
+          <li><a href="" class="link">Contacts</a></li>
         </ul>
       </nav>
-      <div>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+      <div class="contacts">
+        <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+        <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
       </div>
     </header>
     <main>
@@ -31,7 +35,7 @@
       </div>
       <section>
         <h2>Items</h2>
-        <ul>
+        <ul class="list">
           <li>
             <h3>ATTENTION TO DETAILS</h3>
             <p>
@@ -63,7 +67,7 @@
       </section>
       <section>
         <h2>What we do</h2>
-        <ul>
+        <ul class="list">
           <li><img src="./images/pc.jpg" alt="Product Designer" width="370" height="294" /></li>
           <li><img src="./images/smart.jpg" alt="smart" width="370" height="294" /></li>
           <li><img src="./images/tab.jpg" alt="tablet" width="370" height="294" /></li>
@@ -71,7 +75,7 @@
       </section>
       <section>
         <h2>Our Team</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img src="./images/proddes.jpg" alt="Product Designer" width="270" height="260" />
             <h3 lang="ru">Игорь Демьяненко</h3>
@@ -96,20 +100,21 @@
       </section>
     </main>
     <footer>
-      <a href="/">WebStudio</a>
+      <a href="/" class="logo link">WebStudio</a>
       <address>
-        <ul>
+        <ul class="list">
           <li>
             <a
               href="https://goo.gl/maps/yEtKt7MqqouqLtDF9"
+              class="link"
               target="_blank"
               rel="noopener noreferrer"
               >695 Park Ave, New York, NY 10065, <br />
               United States
             </a>
           </li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+1212-772-4150">+1 212-772-4150</a></li>
+          <li><a href="mailto:info@example.com" class="link">info@example.com</a></li>
+          <li><a href="tel:+1212-772-4150" class="link">+1 212-772-4150</a></li>
         </ul>
       </address>
     </footer>
