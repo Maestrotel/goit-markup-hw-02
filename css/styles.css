@@ -4,14 +4,17 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196F3;
+  --button-color:#F5F4FA;
   --footer-comments-color: rgba(255, 255, 255, 0.6);
 }
 
+/* general */
+
 body {
   background-color: var(--primary-background-color);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
 }
-
 
 .link {
   text-decoration: none;
@@ -21,10 +24,104 @@ body {
   list-style: none;
 }
 
+/* header */
+
 .logo {
-  font-family: Raleway, sans-serif;
+  font-family: Raleway;
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;  
+  letter-spacing: 0.03em;
+}
+
+.nav-pages .link{
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-pages .link:hover,
+.nav-pages .link:focus {
   color: var(--accent-color);
 }
+
+.contacts .link{
+  color: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+/* main */
+
+.solutions {
+  background-color: var(--secondary-background-color);
+  color: var(--primary-background-color);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.btn-service {
+  background: var(--accent-color);
+  color: var(--primary-background-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+}
+
+.btn-service:hover,
+.btn-service:focus {
+  background: var(--accent-color);
+  color: var(--primary-background-color);
+}
+
+
+
+
+
+
+
+/* footer */
+
+.theme {
+  background-color: var(--secondary-background-color);
+}
+
+
+.info .link{
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-comments-color);
+}
+
+.info .link:hover,
+.info .link:focus {
+  color: var(--accent-color);
+}
+
+.add.link {
+  color: var(--primary-background-color);
+}
+
+
+
+
 
 /* 
 Raleway weight    700
