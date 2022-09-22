@@ -4,6 +4,7 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196F3;
+  --logo-color: #000000;
   --button-color:#F5F4FA;
   --footer-comments-color: rgba(255, 255, 255, 0.6);
 }
@@ -41,6 +42,14 @@ body {
   letter-spacing: 0.03em;
 }
 
+.studio-top {
+  color: var(--logo-color);
+}
+
+.studio-bottom {
+  color: var(--primary-background-color);
+}
+
 .nav-pages .link{
   color: var(--title-text-color);
   font-weight: 500;
@@ -51,6 +60,10 @@ body {
 
 .nav-pages .link:hover,
 .nav-pages .link:focus {
+  color: var(--accent-color);
+}
+
+.nav-pages .current {
   color: var(--accent-color);
 }
 
@@ -74,6 +87,10 @@ body {
 
 .solutions {
   background-color: var(--secondary-background-color);
+  text-align: center;
+}
+
+.solutions-title {
   color: var(--primary-background-color);
   font-style: normal;
   font-weight: 900;
@@ -81,6 +98,7 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  
 }
 
 .btn-service {
